@@ -16,7 +16,7 @@ module.exports = {
 
             const { name = login, avatar_url, bio } = apiResponse.data; // se name não existir ele usa login
 
-            const techsArray = ParseStringAsArray(techs);
+            const techsArray = parseStringAsArray(techs);
 
             const location = {
                 type: 'Point',
